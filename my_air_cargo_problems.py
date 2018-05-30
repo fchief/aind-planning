@@ -339,6 +339,6 @@ def air_cargo_p3() -> AirCargoProblem:
     goal = [expr('At(C1, JFK)'),
             expr('At(C2, SFO)'),
             expr('At(C3, ATL)'),
-            expr('At(C4, ORDsss)'),
+            expr('At(C4, ORD)'),
             ] 
     return AirCargoProblem(cargos, planes, airports, init, goal)
